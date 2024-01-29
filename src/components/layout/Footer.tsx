@@ -15,7 +15,7 @@ function Footer() {
               aria-label="O. Riastanjung on Linkedin"
               rel="noreferrer"
               target="_blank"
-              href="https://linkedin.com/in/oriastanjung"
+              href="https://github.com/oriastanjung"
             >
               <SiGithub />
             </Link>

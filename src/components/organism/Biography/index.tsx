@@ -6,7 +6,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 export default function Biography() {
   return (
-    <section className="mt-5 md:mt-20">
+    <section className="mt-5 md:mt-20 px-4 md:px-6 container mx-auto">
       <div className="grid gap-x-8 gap-y-6 md:grid-cols-[2fr,1fr]">
         <Heading as="h1" size="lg" className="col-start-1">
           About Orias

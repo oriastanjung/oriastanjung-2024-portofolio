@@ -51,7 +51,7 @@ const TechList: FC<TechListProps> = ({}) => {
 
   return (
     <section className="mt-5 md:mt-20 overflow-hidden" ref={componentRef}>
-      <Bounded className="px-4 md:px-6 container mx-auto">
+      <Bounded >
         <Heading className="mb-5" as="h2" size="lg">
           What I Use
         </Heading>

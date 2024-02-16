@@ -1,17 +1,27 @@
+import React from "react";
 import clsx from "clsx";
-import React, { FC, ReactNode } from "react";
 
-interface BoundedProps {
-  children: ReactNode;
-  className? : string
-}
-
-const Bounded: FC<BoundedProps> = ({ children, className }) => {
-  return (
-    <div className={clsx("grid gap-x-8 gap-y-6 md:grid-cols-[2fr,1fr]",className)}>
-      {children}
-    </div>
-  );
+type BoundedProps = {
+  as?: React.ElementType;
+  className?: string;
+  children: React.ReactNode;
 };
+
+const Bounded = React.forwardRef<HTMLDivElement, BoundedProps>(
+  ({ as: Comp = "section", className, children, ...restProps }, ref) => {
+    return (
+      <Comp
+        ref={ref}
+        className={clsx("container mx-auto px-4 py-10 md:px-6 md:py-14 lg:py-16", className)}
+        {...restProps}
+      >
+        <div className="w-full max-w-7xl">{children}</div>
+      </Comp>
+    );
+  },
+);
+
+// Set a display name for the component
+Bounded.displayName = "Bounded";
 
 export default Bounded;

@@ -43,6 +43,13 @@ export const ProjectsList: ProjectItemType[] = [
     github: "https://github.com/oriastanjung/furniture-landing-page",
     image: "/furniture-modern.png",
   },
+  {
+    title: "Lentera - Landing Page",
+    tech: ["NextJS", "TailwindCSS"],
+    url: "https://lentera.vercel.app/",
+    github: "https://github.com/oriastanjung/Lentera-FE",
+    image: "/lentera.png",
+  },
 
   {
     title: "Luxspace - Furniture App",

@@ -44,6 +44,13 @@ export const ProjectsList: ProjectItemType[] = [
     image: "/furniture-modern.png",
   },
   {
+    title: "Ramoena",
+    tech: ["NextJS", "TailwindCSS"],
+    url: "https://ramoena.vercel.app/",
+    github: "https://github.com/oriastanjung/ramoena",
+    image: "/ramoena.png",
+  },
+  {
     title: "Lentera - Landing Page",
     tech: ["NextJS", "TailwindCSS"],
     url: "https://lentera.vercel.app/",

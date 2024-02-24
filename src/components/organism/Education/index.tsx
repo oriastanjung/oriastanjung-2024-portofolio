@@ -37,12 +37,12 @@ const Education: FC<EducationProps> = ({}) => {
           Education
         </Heading>
         <div className="description-animate opacity-0 ">
-          <div className="prose prose-xl prose-slate prose-invert col-start-1  mt-10 pl-24 flex gap-10 text-xl">
+          <div className="prose prose-xl prose-slate prose-invert col-start-1  mt-10 pl-5 xl:pl-24 flex flex-col lg:flex-row lg:gap-10 text-normal lg:text-xl">
             <p>Bachelor Degree of Informatics Engineering</p>
-            <span>-</span>
+            <span className="lg:block hidden">-</span>
             <p>University Maritim Raja Ali Haji</p>
           </div>
-          <div className="prose prose-xl prose-slate prose-invert col-start-1  mt-5 pl-32 flex gap-10 text-xl">
+          <div className="prose prose-xl prose-slate prose-invert col-start-1  mt-3 lg:mt-5 pl-10 xl:pl-32 flex gap-10 text-normal lg:text-xl">
             <p>Grade Point Average (GPA)</p>
             <span>:</span>
             <p className="text-[#9771FB] font-bold">3.77</p>

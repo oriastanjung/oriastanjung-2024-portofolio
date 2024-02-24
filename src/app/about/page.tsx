@@ -1,5 +1,7 @@
 
 import Biography from "@/components/organism/Biography";
+import Education from "@/components/organism/Education";
+import Experience from "@/components/organism/Experience";
 import TechList from "@/components/organism/TechList";
 
 export const metadata = {
@@ -12,6 +14,8 @@ export default function AboutPage() {
     <main className=" py-10  md:py-2 min-h-screen ">
         <Biography />
         <TechList />
+        <Experience />
+        <Education />
     </main>
   );
 }

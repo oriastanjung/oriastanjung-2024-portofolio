@@ -19,13 +19,23 @@ const TechList: FC<TechListProps> = ({}) => {
     let ctx = gsap.context(() => {
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger : componentRef.current,
+          trigger: componentRef.current,
           markers: false,
           start: "top bottom",
           end: "bottom top",
           scrub: 4,
         },
       });
+      gsap.fromTo(
+        ".title-animation",
+        { scale: 3, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 1, delay: 4, ease: "elastic.out" }
+      );
+      gsap.fromTo(
+        ".name-animation",
+        { opacity: 0 },
+        { opacity: 1, duration: 1, delay: 4, ease: "elastic.out" }
+      );
       tl.fromTo(
         ".tech-row",
         {
@@ -41,7 +51,7 @@ const TechList: FC<TechListProps> = ({}) => {
               ? gsap.utils.random(-600, -400)
               : gsap.utils.random(600, 400);
           },
-          ease : "power1.inOut"
+          ease: "power1.inOut",
         }
       );
     }, componentRef);
@@ -51,8 +61,8 @@ const TechList: FC<TechListProps> = ({}) => {
 
   return (
     <section className="mt-5 md:mt-20 overflow-hidden" ref={componentRef}>
-      <Bounded >
-        <Heading className="mb-5" as="h2" size="lg">
+      <Bounded>
+        <Heading className="mb-5 title-animation opacity-0" as="h2" size="lg">
           What I Use
         </Heading>
       </Bounded>
@@ -60,7 +70,7 @@ const TechList: FC<TechListProps> = ({}) => {
       {techItems.map((item, indx) => (
         <div
           key={indx}
-          className="tech-row mb-8 flex items-center justify-center gap-1 md:gap-4 text-slate-700"
+          className="tech-row mb-8 flex items-center justify-center gap-1 md:gap-4 text-slate-700 name-animation"
           aria-label={item.name}
         >
           {Array.from({ length: 15 }, (_, idx) => (

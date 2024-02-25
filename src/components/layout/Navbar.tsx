@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <header
       ref={navbarRef}
-      className="container mx-auto px-4  md:px-0  text-slate-900 sticky top-0 z-10"
+      className="container mx-auto px-4  md:px-0  text-slate-900 sticky top-0 z-[100]"
     >
       <nav className="head-animation opacity-0 flex items-center justify-between py-5 px-6 h-full w-full bg-slate-100 rounded-2xl ">
         <h1 className="font-extrabold text-2xl  tracking-tighter">

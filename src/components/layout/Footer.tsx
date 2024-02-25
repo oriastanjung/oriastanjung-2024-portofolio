@@ -33,7 +33,7 @@ function Footer() {
             >
               /
             </span>
-            <p className=" text-sm text-slate-300 ">© 2023 O. Riastanjung</p>
+            <p className=" text-sm text-slate-300 ">© 2024 O. Riastanjung</p>
           </div>
 
           <div className="socials inline-flex justify-center sm:justify-end">

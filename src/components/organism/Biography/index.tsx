@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button";
 import React, { useEffect, useRef } from "react";
 import Avatar from "./Avatar";
 import { gsap } from "gsap";
-
+import Link from "next/link"
 import { MdArrowOutward } from "react-icons/md";
 
 export default function Biography() {
@@ -28,13 +28,13 @@ export default function Biography() {
           duration: 2,
           delay: 0,
           ease: "elastic.inOut(1,0.3)",
-        },
+        }
       );
 
       tl.fromTo(
         ".btn-animate",
-        { x: -1000, rotate: 360, opacity : 0 },
-        { x: 0, rotate: 0, duration: 2, opacity:1,ease: "elastic.in" },
+        { x: -1000, rotate: 360, opacity: 0 },
+        { x: 0, rotate: 0, duration: 2, opacity: 1, ease: "elastic.in" },
         "-=1.5" // Delay to synchronize with previous animations
       );
     }, aboutRef);
@@ -74,9 +74,15 @@ export default function Biography() {
             values innovation and growth.
           </p>
         </div>
-        <Button className="btn-animate opacity-0" showIcon icon={<MdArrowOutward />}>
-          Resume
-        </Button>
+        <Link target="_blank" href="https://drive.google.com/file/d/16RCVBWd5LB1aOQRxK5A_OjCUBTK0QxYW/view?usp=sharing">
+          <Button
+            className="btn-animate opacity-0"
+            showIcon
+            icon={<MdArrowOutward />}
+          >
+            Resume
+          </Button>
+        </Link>
         <Avatar
           image={"/avatar.jpeg"}
           className="row-start-1 max-w-sm md:col-start-2 md:row-end-3"

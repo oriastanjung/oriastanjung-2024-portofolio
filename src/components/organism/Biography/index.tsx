@@ -74,7 +74,7 @@ export default function Biography() {
             values innovation and growth.
           </p>
         </div>
-        <Link target="_blank" href="https://drive.google.com/file/d/16RCVBWd5LB1aOQRxK5A_OjCUBTK0QxYW/view?usp=sharing">
+        <Link download={true} target="_blank" href="/cv.pdf">
           <Button
             className="btn-animate opacity-0"
             showIcon

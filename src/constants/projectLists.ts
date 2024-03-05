@@ -9,7 +9,7 @@ export type ProjectItemType = {
 export const ProjectsList: ProjectItemType[] = [
   {
     title: "SORE - Pixelcrafters",
-    tech: ["ExpressJS", "MongoDB", "ReactJS"],
+    tech: ["ExpressJS", "MongoDB", "ReactJS", "NextJS", "TailwindCSS"],
     url: "https://sore-pixelcrafters.vercel.app/",
     github: "https://github.com/oriastanjung",
     image: "/sore-pixelcrafters.png",
@@ -28,7 +28,20 @@ export const ProjectsList: ProjectItemType[] = [
     github: "https://github.com/oriastanjung",
     image: "/shoecraft.png",
   },
-
+  {
+    title: "Shoppery",
+    tech: ["VueJS", "FakeStore API" ,"TailwindCSS"],
+    url: "https://vue-shoppery.vercel.app/",
+    github: "https://github.com/oriastanjung/vue-planto",
+    image: "/shoppery.png",
+  },
+  {
+    title: "Ramoena",
+    tech: ["NextJS", "TailwindCSS"],
+    url: "https://ramoena.vercel.app/",
+    github: "https://github.com/oriastanjung/ramoena",
+    image: "/ramoena.png",
+  },
   {
     title: "Alvacation",
     tech: ["ReactJS", "SCSS", "Bootstrap"],
@@ -43,13 +56,7 @@ export const ProjectsList: ProjectItemType[] = [
     github: "https://github.com/oriastanjung/furniture-landing-page",
     image: "/furniture-modern.png",
   },
-  {
-    title: "Ramoena",
-    tech: ["NextJS", "TailwindCSS"],
-    url: "https://ramoena.vercel.app/",
-    github: "https://github.com/oriastanjung/ramoena",
-    image: "/ramoena.png",
-  },
+  
   {
     title: "Lentera - Landing Page",
     tech: ["NextJS", "TailwindCSS"],
@@ -57,14 +64,22 @@ export const ProjectsList: ProjectItemType[] = [
     github: "https://github.com/oriastanjung/Lentera-FE",
     image: "/lentera.png",
   },
+  {
+    title: "Planto",
+    tech: ["VueJS", "TailwindCSS"],
+    url: "https://vue-planto.vercel.app/",
+    github: "https://github.com/oriastanjung/vue-planto",
+    image: "/vue-planto.png",
+  },
 
   {
     title: "Luxspace - Furniture App",
     tech: ["ReactJS", "TailwindCSS"],
     url: "https://luxspace-bwa-cyan.vercel.app/",
-    github: "https://github.com/oriastanjung/luxspace_bwa",
+    github: "https://github.com/oriastanjung/vue_shoppery",
     image: "/luxspace.png",
   },
+  
   {
     title: "SEMINA",
     tech: ["ReactJS", "Bootstrap","NextJS","ExpressJS", "MongoDB"],

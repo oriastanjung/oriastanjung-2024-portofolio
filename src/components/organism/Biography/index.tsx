@@ -61,7 +61,7 @@ export default function Biography() {
             <br />
             Over the past two years, I have honed my skills and become
             proficient in modern web development tools and frameworks, including
-            NextJS, ReactJS, ExpressJS, MongoDB, MySQL, TailwindCSS, JEST, and
+            NextJS, ReactJS, VueJS, ExpressJS, MongoDB, MySQL, TailwindCSS, JEST, and
             React Testing Library. My hands-on experience has equipped me with
             the ability to create dynamic and responsive user interfaces,
             ensuring a seamless and engaging user experience. I am dedicated to

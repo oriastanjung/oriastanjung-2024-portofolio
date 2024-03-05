@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Image from "next/image";
 import React, { FC } from "react";
 import ButtonShimer from "../ui/ButtonShimer";
-
+import Link from "next/link"
 interface AchievementCardProps extends AchievementType {
   className?: string;
 }
@@ -30,7 +30,7 @@ const AchievementCard: FC<AchievementCardProps> = ({
         quality={100}
       />
       <div className="absolute translate-y-full group-hover:translate-y-0 duration-300 ease-in-out transition-transform bg-gradient-to-t from-black to-transparent w-full h-full flex items-center justify-center flex-col gap-4">
-       <ButtonShimer>Detail</ButtonShimer>
+       <Link href={url} target="_blank"><ButtonShimer>Detail</ButtonShimer></Link>
       </div>
     </div>
   );

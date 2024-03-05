@@ -12,6 +12,10 @@ const techItems : TechItemType[] = [
         color : "#E5E9F2"
     },
     {
+        name : "VueJS",
+        color : "#0ae448"
+    },
+    {
         name : "TailwindCSS",
         color : "#29d8ff"
     },

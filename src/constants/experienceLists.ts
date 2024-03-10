@@ -11,7 +11,7 @@ export const ExperienceList : ExperienceType[] = [
         job_title : "Web Developer and Administrator Intern",
         company : 'Maritim Muda Nusantara',
         start_date : "February 2023",
-        end_date : "February 2023",
+        end_date : "July 2023",
         list : [
             "Improving the website and web apps of Hub Maritim Muda, Geoparksyouth, and The Blue Economist",
             "Being an administrator in web apps to publish post for almost 25 posts",

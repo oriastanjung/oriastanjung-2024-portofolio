@@ -24,6 +24,10 @@ const techItems : TechItemType[] = [
         color : "#ff7e33"
     },
     {
+        name : "Go_Fiber",
+        color : "#29d8ff"
+    },
+    {
         name : "MongoDB",
         color : "#0ae448"
     },

@@ -31,16 +31,16 @@ export default function Navbar() {
       className="container mx-auto px-4  md:px-0  text-slate-900 sticky top-0 z-[100]"
     >
       <nav className="head-animation opacity-0 flex items-center justify-between py-5 px-6 h-full w-full bg-slate-100 rounded-2xl ">
-        <h1 className="font-extrabold text-2xl  tracking-tighter">
+        <h1 className="font-bold text-2xl  tracking-tighter">
           <Link href={"/"}>O. Riastanjung</Link>
         </h1>
         <ul className="md:flex items-center hidden">
           <li className="flex flex-row items-center">
             <Link
-              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-bold text-slate-900"
+              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-medium text-slate-900"
               href={"/about"}
             >
-              <span className="absolute inset-0 z-0 h-full rounded bg-purple-300 transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
+              <span className="absolute inset-0 z-0 h-full rounded bg-primary transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
               <span className="relative">About</span>
             </Link>
             <span
@@ -52,10 +52,10 @@ export default function Navbar() {
           </li>
           <li className="flex flex-row items-center">
             <Link
-              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-bold text-slate-900"
+              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-medium text-slate-900"
               href={"/achievements"}
             >
-              <span className="absolute inset-0 z-0 h-full rounded bg-purple-300 transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
+              <span className="absolute inset-0 z-0 h-full rounded bg-primary transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
               <span className="relative">Achievements</span>
             </Link>
             <span
@@ -67,10 +67,10 @@ export default function Navbar() {
           </li>
           <li className="flex flex-row items-center">
             <Link
-              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-bold text-slate-900"
+              className="group relative block overflow-hidden rounded px-3 py-1 text-base font-medium text-slate-900"
               href={"/projects"}
             >
-              <span className="absolute inset-0 z-0 h-full rounded bg-purple-300 transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
+              <span className="absolute inset-0 z-0 h-full rounded bg-primary transition-transform  duration-300 ease-in-out group-hover:translate-y-0 translate-y-8"></span>
               <span className="relative">Projects</span>
             </Link>
             <span
@@ -109,7 +109,7 @@ export default function Navbar() {
         <ul className="flex flex-col items-center justify-center mt-20 gap-20 w-full">
           <li>
             <Link
-              className="font-bold text-4xl text-slate-100 border-b-2 border-purple-300"
+              className="font-medium text-4xl text-slate-100 border-b-2 border-purple-300"
               href={"/about"}
             >
               About
@@ -117,7 +117,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              className="font-bold text-4xl text-slate-100 border-b-2 border-purple-300"
+              className="font-medium text-4xl text-slate-100 border-b-2 border-purple-300"
               href={"/achievements"}
             >
               Achievements
@@ -125,7 +125,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              className="font-bold text-4xl text-slate-100 border-b-2 border-purple-300"
+              className="font-medium text-4xl text-slate-100 border-b-2 border-purple-300"
               href={"/projects"}
             >
               Projects

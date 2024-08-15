@@ -138,7 +138,7 @@ const Experience: FC<ExperienceProps> = ({}) => {
     >
       <div className="container mx-auto relative z-[10]">
         <h2
-          className="font-bold leading-tight tracking-tight  text-slate-300 text-7xl text-center"
+          className="font-medium leading-tight tracking-tight  text-slate-300 text-7xl text-center"
           ref={headingRef}
         >
           Experience

@@ -29,12 +29,12 @@ const TechList: FC<TechListProps> = ({}) => {
       gsap.fromTo(
         ".title-animation",
         { scale: 3, opacity: 0 },
-        { scale: 1, opacity: 1, duration: 1, delay: 4, ease: "elastic.out" }
+        { scale: 1, opacity: 1, duration: 2, delay: 5, ease: "elastic.out" }
       );
       gsap.fromTo(
         ".name-animation",
         { opacity: 0 },
-        { opacity: 1, duration: 1, delay: 4, ease: "elastic.out" }
+        { opacity: 1, duration: 6, delay: 6, ease: "elastic.out" }
       );
       tl.fromTo(
         ".tech-row",
@@ -76,7 +76,7 @@ const TechList: FC<TechListProps> = ({}) => {
           {Array.from({ length: 15 }, (_, idx) => (
             <React.Fragment key={idx}>
               <span
-                className={`tech-item text-4xl md:text-6xl 2xl:text-8xl font-extrabold uppercase tracking-tighter`}
+                className={`tech-item text-4xl md:text-6xl 2xl:text-8xl font-medium uppercase tracking-tighter`}
                 style={{
                   color: idx === 7 && item.color ? item.color : "inherit",
                 }}

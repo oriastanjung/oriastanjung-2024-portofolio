@@ -13,9 +13,9 @@ export default function AboutPage() {
   return (
     <main className=" py-10  md:py-2 min-h-screen ">
         <Biography />
+        <Education />
         <TechList />
         <Experience />
-        <Education />
     </main>
   );
 }

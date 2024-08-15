@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors : {
+        primary : "#0CE449"
+      },
+      
       animation: {
         shimmer: "shimmer 2s linear infinite",
       },
@@ -27,6 +31,9 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily : {
+        neuemontreal : ["var(--font-neuemontreal)"]
+      }
     },
   },
   plugins: [],

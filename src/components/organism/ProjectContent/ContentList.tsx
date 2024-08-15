@@ -118,8 +118,8 @@ const ContentList: FC<ContentListProps> = ({ items }) => {
                 className="flex flex-col justify-between border-t border-t-slate-100 py-10 text-slate-200 md:flex-row"
               >
                 <div className="flex flex-col">
-                  <h3 className="text-3xl font-bold">{item.title}</h3>
-                  <div className="flex flex-row gap-3 text-purple-400 text-lg font-bold">
+                  <h3 className="text-3xl font-medium">{item.title}</h3>
+                  <div className="flex flex-row gap-3 text-primary text-lg font-medium">
                     {item.tech.map((tech, indx) => (
                       <span key={indx}> {tech} </span>
                     ))}

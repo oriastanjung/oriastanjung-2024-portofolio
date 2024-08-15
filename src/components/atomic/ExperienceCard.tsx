@@ -26,7 +26,7 @@ const ExperienceCard: FC<ExperienceCardProps> = ({
         <Heading className="text-center" as="h4" size="md">
           {job_title}
         </Heading>
-        <p className="font-semibold leading-tight tracking-tight text-center mt-8 text-6xl  text-[#0CE847]">
+        <p className="font-medium leading-tight tracking-tight text-center mt-8 text-6xl  text-[#0CE847]">
           @{company}
         </p>
         <p className="font-medium leading-tight tracking-tight text-center mt-8 text-2xl text-slate-500">

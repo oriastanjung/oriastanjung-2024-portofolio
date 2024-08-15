@@ -6,6 +6,26 @@ export type AchievementType = {
 
 export const FrontendAchievements: AchievementType[] = [
   {
+    name: "Alibaba Cloud Certification",
+    url: "https://drive.google.com/file/d/18tfOsHZfVzJ1Vvd8J7kXgaIez72EyIri/view?usp=sharing",
+    image: "/acFe-10.png",
+  },
+  {
+    name: "NextJS By Example",
+    url: "https://www.udemy.com/certificate/UC-c30d086c-bfdd-4a2c-acee-783e600998e1/",
+    image: "/acFe-11.jpg",
+  },
+  {
+    name: "React - The Complete Guide 2024 (incl. Next.js, Redux)",
+    url: "https://ude.my/UC-78a55611-eb48-435b-8b1f-90565b4de2e4",
+    image: "/acFe-12.jpg",
+  },
+  {
+    name: "Frontend Developer (React)",
+    url: "https://drive.google.com/file/d/1F3FDVptcERTcwTZDcfYgMn8a1QTeqy02/view?usp=sharing",
+    image: "/acFe-13.png",
+  },
+  {
     name: "Full-Stack JavaScript Next JS Developer: Build Job Portal Website",
     url: "https://drive.google.com/file/d/1irsSlt4ekXFvGwZNzORSXJD3ue30uY-S/view?usp=sharing",
     image: "/acFe-9.png",

@@ -13,14 +13,14 @@ const Hero = (): JSX.Element => {
       <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center ">
         <div className="col-start-1 md:row-start-1">
           <h1
-            className="mb-4 md:mb-8 text-5xl md:text-7xl font-extrabold leading-none tracking-tighter"
+            className="mb-4 md:mb-8 text-5xl md:text-6xl xl:text-8xl 2xl:text-9xl font-medium leading-none tracking-tighter"
             aria-label={"O. Riastanjung"}
           >
             <span className="text-slate-300 block">
               {renderLetters("O. Riastanjung", "first")}
             </span>
           </h1>
-          <span className="job-animation block bg-gradient-to-tr from-purple-500 via-red-200 to-purple-500 bg-clip-text text-2xl font-bold uppercase tracking-[.2em] text-transparent opacity-0 md:text-4xl">
+          <span className="job-animation block bg-gradient-to-tr from-primary via-green-500 to-green-400 bg-clip-text text-2xl font-medium uppercase tracking-[.2em] text-transparent opacity-0 md:text-4xl">
             {"Frontend Developer"}
           </span>
           <div className="bton-animation mt-4 md:mt-8 opacity-0">

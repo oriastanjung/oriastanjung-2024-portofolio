@@ -4,7 +4,7 @@ import Button from "@/components/ui/Button";
 import React, { useEffect, useRef } from "react";
 import Avatar from "./Avatar";
 import { gsap } from "gsap";
-import Link from "next/link"
+import Link from "next/link";
 import { MdArrowOutward } from "react-icons/md";
 
 export default function Biography() {
@@ -54,24 +54,36 @@ export default function Biography() {
         </Heading>
         <div className="prose prose-xl prose-slate prose-invert col-start-1 description-animate opacity-0">
           <p className="text-lg">
-            Hello, I am an ambitious undergraduate college student with a
-            passion for web development, specializing in frontend and backend
-            technologies.
+            Hello,I am a passionate and highly motivated Front-end Developer
+            with 3 years of hands-on experience in modern technologies. My
+            journey in the IT industry has equipped me with extensive experience
+            in various projects and a demonstrated history of success in
+            individual and team situations. I excel in problem-solving and
+            effective teamwork, bringing strong analytical skills to the table.
+            As a fresh graduate actively seeking employment, I am eager to apply
+            my knowledge and skills to real-world challenges.
             <br />
             <br />
-            Over the past two years, I have honed my skills and become
-            proficient in modern web development tools and frameworks, including
-            NextJS, ReactJS, VueJS, ExpressJS, MongoDB, MySQL, TailwindCSS, JEST, and
-            React Testing Library. My hands-on experience has equipped me with
-            the ability to create dynamic and responsive user interfaces,
-            ensuring a seamless and engaging user experience. I am dedicated to
-            staying at the forefront of technology trends and continuously
-            expanding my skill set to contribute effectively in the
-            ever-evolving field of web development.
+            My expertise spans across a wide range of domains, including:
+            <br />• Front-end Development: NextJS, ReactJS, and VueJS
+            <br />• Back-end Development: ExpressJS, Go Fiber, Gin Golang, and
+            Flask Python
+            <br />• Database: MYSQL, SQLite, PostgreSQL and MongoDB
+            <br />• Version Control: Git and GitHub
+            <br />• Web Design: HTML, CSS, and JavaScript
+            <br />• Responsive Design: TailwindCSS and BootstrapCSS
+            <br />• API Integration: RESTful APIs
+            <br />• State Management: Redux and Context API
+            <br />• Testing: Jest, and React Testing Library
+            <br />• DevOps: VPS with NGINX and Docker
+            <br />• Programming Language : Javascript, Typescript, Go, and
+            Python,
             <br />
-            <br />I look forward to the opportunity to further enhance my
-            abilities while making a positive contribution to a company that
-            values innovation and growth.
+            <br />
+            As a Front-end Developer committed to continual learning, I strive
+            to stay at the forefront of technological advancements. I am
+            dedicated to delivering innovative and efficient solutions, ensuring
+            seamless user experiences and high-quality software development.
           </p>
         </div>
         <Link download={true} target="_blank" href="/cv.pdf">
